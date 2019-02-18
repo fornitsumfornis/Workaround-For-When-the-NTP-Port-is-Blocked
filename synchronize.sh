@@ -30,5 +30,5 @@ change="$(<change.txt)"
 sudo date -s "$change"
 
 #deleting unecessary files now
-rm currentime.txt modifiedtime.txt date.txt currentdate.txt day.txt month.txt number.txt year.txt change.txt
+rm currentime.txt modifiedtime.txt date.txt currentdate.txt day.txt month.txt number.txt year.txt change.txt clock.txt
 
