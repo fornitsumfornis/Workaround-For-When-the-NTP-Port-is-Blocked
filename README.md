@@ -1,5 +1,5 @@
 # Workaround For When the NTP Port is Blocked 
-Sometimes the NTP port can be blocked (such as at Universities).  This script(s) allows the raspberry pi to still have the correct time without going through the NTP port.  
+Sometimes the NTP port can be blocked (such as at Universities).  This script(s) allows the raspberry pi to still have the correct time without going through the NTP port.  As of right now, the install script only works for the Central US Time Zone but I should have it updated to include all time zones soon.
 
 ## Distributions Supported
 If your distribution has an /etc/rc.local file then it should install correctly.
