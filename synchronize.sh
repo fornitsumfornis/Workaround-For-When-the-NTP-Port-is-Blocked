@@ -6,7 +6,6 @@ lynx --dump "https://time.is/" > clock.txt
 cat clock.txt | grep -m1 'PM\|AM' > currentime.txt
 sed -i "s/ //g" currentime.txt
 sed 's/PM*\|AM*//' currentime.txt > modifiedtime.txt
-clock=( $(<modifiedtime.txt) )
 lynx --dump "https://www.worldtimeserver.com/current_time_in_US-IL.aspx" > date.txt
 cat date.txt | grep -m1 '20[1-9][0-9]' >currentdate.txt
 sed -i "s/ //g" currentdate.txt
