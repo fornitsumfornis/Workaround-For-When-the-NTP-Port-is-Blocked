@@ -2,7 +2,7 @@
 Sometimes the NTP port can be blocked (such as at Universities).  This script(s) allows the raspberry pi to still have the correct time without going through the NTP port.  
 
 ## Distributions Supported
-If your distribution has an /etc/rc.local file then it should work
+If your distribution has an /etc/rc.local file then it should install correctly.
 
 ## Dependencies
 
