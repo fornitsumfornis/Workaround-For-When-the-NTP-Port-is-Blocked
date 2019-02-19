@@ -14,5 +14,6 @@ This package depends on lynx.
 ## Installing
 
     git clone https://github.com/fornitsumfornis/Workaround-For-When-the-NTP-Port-is-Blocked
-    cd 
+    cd Workaround-For-When-the-NTP-Port-is-Blocked
+    chmod 755 install.sh
     sudo sh install.sh
